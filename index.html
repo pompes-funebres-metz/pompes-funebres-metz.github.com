@@ -9,9 +9,9 @@
 
 
 	<title>Pompes funèbres Weber</title>
-	<meta name="description" content="">
+	<meta name="description" content=" Confiance, discrétion et écoute. Votre accompagnement en cas de décès. La société Pompes Funèbres WEBER, située à Metz, vous accueille dans son agence de Metz Sablon. Permanences téléphoniques 24h/24 et 7j/7. Organisation complète d'obsèques, large choix d'articles funéraires, plaque funéraire en granit, composition de fleurs artificielles et fleurs fraîches, contrats obsèques , prévoyance obsèques, Marbrerie funéraire: caveaux , monuments et restauration de monuments, devis gratuit, facilités de paiement-nous consulter.">
 	<meta name="author" content="Gabrielle Weber">
-  <meta name="keywords" content="pompes, funebres, pompes funebres, cremations, inhumations, metz, marbrerie, art funeraire,marbrier, deuil, entreprise, obseque, ceremonie, enterrement, chambre funeraires, monuments funeraires, caveaux, cercueils, contrats d’obseques, contrat assistance, conservation de corps, transports, France, Etranger, fleurs, plantes, compositions, articles funeraires">
+  <meta name="keywords" content="pompes, funebres, pompes funebres, cremations, inhumations, metz, marbrerie, art funeraire,marbrier, deuil, entreprise, obseque, ceremonie, enterrement, chambre funeraires, monuments funeraires, caveaux, cercueils, contrats obseques, contrat assistance, conservation de corps, thanatopraxie, transports, France, Etranger, fleurs, fleurs artificielles, plantes, compositions, articles funeraires, tout culte, inhumation, urne, gravure, plaque, granit, marbre, bronze, couronne">
   
   <link rel="shortcut icon" type="image/png" href="favicon.png" />
   <link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" />
@@ -75,6 +75,7 @@
                 <li><a href="#home">Accueil</a></li>
                 <li><a href="#company">Présentation de l'agence</a></li>
                 <li><a href="#rate">Forfait simplifié</a></li>
+                <li><a href="#contract">Prévoyance obsèques</a></li>
               </ul>
             </div>
           </div>
@@ -207,7 +208,7 @@
               <div class="alert alert-error">
                 <strong>Rappel immédiat et gratuit : renseigner votre numéro de téléphone</strong>
                 <div class="row-fluid">
-                  <button id="recontact" class="span12 btn btn-danger">Cliquez ici</button>
+                  <button class="recontact span12 btn btn-danger">Cliquez ici</button>
                 </div>
               </div>
               <div class="well">
@@ -401,6 +402,60 @@
         </div>
       </div>
     </div>
+    <div class="tab-pane" id="contract">
+      <div class="row-fluid">
+        <div class="span6">
+          <div class="row-fluid">
+            <div class="span12">
+              <div class="well">
+                <div class="row-fluid">
+                  <div class="span12">
+                    <h3>Pour ne penser qu'à la vie</h3>
+                    <hr>
+                    <h4>Qui mieux qu'un spécialiste peut vous donnez autant de garanties pour l'avenir ?</h4>
+                    <ul>
+                      <li>Vous souhaitez préparer à l'avance vos obsèques ?</li>
+                      <li>Avoir la certitude que vos dernières volontés seront repectées ?</li>
+                      <li>Epargner à votre entourage les détails financiers et matériels liés à vos obsèques ?</li>
+                      <li>Être rassuré et confiant, en faisant appel à un professionel du funéraire ?</li>
+                      FAPE Obsèques vous propose la meilleure des solutions : <strong>Protection Obsèques</strong>.
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="span6">
+          <div class="row-fluid">
+            <div class="span12">
+              <div class="alert alert-error">
+                <strong>Rappel immédiat et gratuit : nous calculons vos mensualités par téléphone.</strong>
+                <div class="row-fluid">
+                  <button class="recontact span12 btn btn-danger">Cliquez ici</button>
+                </div>
+              </div>
+              <div class="well">
+                <div class="row-fluid">
+                  <div class="span12">
+                    <h3>Pourquoi choisir <strong>Protection Obsèques</strong> ?</h3>
+                    <hr>
+                    <ul>
+                      <li>Une prestation personnalisée</li>
+                      <li>Une garantie immédiate même en cas de décès par maladie.</li>
+                      <li>Une tarification attractive en fonction de l'âge du souscripteur.</li>
+                      <li>Une revalorisation de référence.</li>
+                      <li>Ni certificat médical, ni questionnaire santé.</li>
+                      <li>Une assistance garantie par EUROP Assistance.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <hr>
@@ -431,8 +486,8 @@ var _gaq=[['_setAccount','UA-33521404-1'],['_trackPageview']];
 }(document,'script'));
 
 
-(function(d){
-  d.getElementById('recontact').onclick = function(){
+$(function(){
+  $('.recontact').click(function(){
     debugger;
     var to = 'gml.weber@gmail.com';
     var subject = 'Demande de contact - Pompes Funèbres Weber';
@@ -443,8 +498,8 @@ var _gaq=[['_setAccount','UA-33521404-1'],['_trackPageview']];
 
     if(numero !== '' && numero !== null && typeof numero !== 'undefined')
       location.href = mailto;
-  }
-}(document));
+  });
+});
 </script>
 
 </body>
