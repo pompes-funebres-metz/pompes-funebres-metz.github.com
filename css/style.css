@@ -1,0 +1,127 @@
+
+
+/*
+  ===== Primary Styles ========================================================
+  Author:
+  ==========================================================================
+  */
+
+  body {
+    background-color: #6b0208;
+    color: #797979;
+  }
+
+  #menulogo {
+    height: 36px;
+  }
+
+  .hero-unit { 
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 6px 6px 6px 6px;
+  }
+
+  .well {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255, 255, 255);
+    border: medium none;
+  }
+
+  .alert {
+    padding-right: 18px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+    border: medium none;
+  }
+
+  .navbar .brand {
+    padding: 4px 20px 4px;
+  }
+
+  @media (max-width: 480px) {
+    .navbar-fixed-top, .navbar-fixed-bottom {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+
+    body {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .well {
+      padding: 10px;
+    }
+
+    .table th {
+      font-weight:bold;
+    }
+  }
+
+  @media (max-width: 979px) {
+    .table th, .table td {
+      padding: 5px;
+    }
+
+    .well {
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    [class*="span"], .row-fluid [class*="span"] {
+      width: 100%;
+    }
+  }
+
+  .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+
+    background-color: #E5E5E5;
+    -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+    -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+  }
+
+  @media (min-width: 1200px) {
+    .hero-unit .span9.visible-desktop {
+      margin-top: 25px;
+    }
+  }
+
+  .navbar .nav > li > a {
+    font-size: 15px;
+    line-height: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .navbar .brand {
+    padding-left: 4px;
+  }
+
+  .navbar .btn-navbar {
+    color: rgb(119, 119, 119);
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  footer {
+    text-align: center;
+    line-height: 14px;
+    font-size: 12px;
+  }
+
+  footer > p {
+    margin-bottom: 0px;
+  }
+
+  .carousel .item > img {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .carousel .item {
+    vertical-align: middle;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+  }
