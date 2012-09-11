@@ -14,12 +14,21 @@
   #menulogo {
     height: 36px;
   }
+  
+  .logo-center {
+  	line-height: 240px;
+  }
 
-  .hero-unit { 
+  .hero-unit {
+  	padding: 19px;
     text-align: center;
     background-color: white;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
     border-radius: 6px 6px 6px 6px;
+  }
+  
+  .hero-unit h1, .hero-unit h2 {
+  	color: #797979;
   }
 
   .well {
