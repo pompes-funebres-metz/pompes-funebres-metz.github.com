@@ -86,6 +86,7 @@
           <li><a href="#home">Accueil</a></li>
           <li><a href="#company">Nos Services</a></li>
           <li><a href="#rate">Marbrerie</a></li>
+          <li><a href="#clean">Entretien de Sépultures</a></li>
           <li><a href="#contract">Prévoyance obsèques</a></li>
           <li><a href="#products">Articles Funéraires</a></li>
         </ul>
@@ -412,7 +413,6 @@
                 <div class="span12">
                   <h3>Marbrerie Funéraire</h3>
                   <h4>Nous réalisons vos caveaux et monuments funéraires selon vos volontés, du plus classique au plus contemporain, dans une large gamme de granit.</h4>
-                  <h4>Nous avons mis en place un service d'entretien de sépulture et de fleurissement, avec envoi de photo "avant-après" pour les familles éloignées.</h4>
                   <hr>
                   <h4>Nous réalisons également:</h4>
                   <ul>
@@ -439,6 +439,24 @@
                     <img src="img/thumbnails/rate1.jpg" alt="">
                     <div class="carousel-caption">
                       <h4>Monument Funéraire Maffre Granit</h4>
+                    </div>
+                  </div>
+                   <div class="item">
+                    <img src="img/thumbnails/rate6.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Monument doucine chanfreinée galbée granit Noir d'Afrique</h4>
+                    </div>
+                  </div>
+                   <div class="item">
+                    <img src="img/thumbnails/rate7.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Monument doucine chanfreinée galbée granit Rose Lila</h4>
+                    </div>
+                  </div>
+                   <div class="item">
+                    <img src="img/thumbnails/rate8.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>Monument simple, dallage en granit Mass Blue et opus blanc</h4>
                     </div>
                   </div>
                   <div class="item">
@@ -475,6 +493,68 @@
       </div>
     </div>
   </div>
+  
+    <div class="tab-pane" id="clean">
+    <div class="row-fluid">
+      <div class="span5">
+        <div class="row-fluid">
+          <div class="span12">
+            <div class="well">
+              <div class="row-fluid">
+                <div class="span12">
+                  <h3>Entretien de Sépulture</h3>
+                  <h4>Vous êtes loin, n'avez pas le temps ou n'êtes pas équipé pour entretenir la sépulture de vos proches, faites appel à un professionnel.</h4>
+                <hr>
+                  <h4>Nous avons mis en place un service d'entretien de sépulture et de fleurissement, avec envoi de photo "avant-après" par mail.</h4>
+                  <ul>
+                    <li>Nous intervenons rapidemment,</li>
+                    <li>Dans tous les cimetières messins et alentours,</li>
+                    <li>Monument simple en granit: 65 € l'intervention,</li>
+                    <li>Monument en pierre ou avec calvaire: sur devis,</li>
+                    <li>Pour recevoir notre formulaire, vous pouvez nous envoyer un mail à cette adresse: gml.weber@gmail.com .</li>
+				  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="span7">
+        <div class="span12">
+          <div class="well">
+
+            <div class="row-fluid">
+              <div id="carouselClean" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="img/thumbnails/clean1.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>AVANT / APRES</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/clean2.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>AVANT / APRES</h4>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <img src="img/thumbnails/clean3.jpg" alt="">
+                    <div class="carousel-caption">
+                      <h4>AVANT / APRES</h4>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control left" href="#carouselClean" data-slide="prev">&lt;</a>
+                <a class="carousel-control right" href="#carouselClean" data-slide="next">&gt;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
   <div class="tab-pane" id="contract">
     <div class="row-fluid">
       <div class="span6">
@@ -672,8 +752,6 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)
   }(document,'script'));
-
-
   $(function(){
     $('.recontact').click(function(){
       debugger;
@@ -681,9 +759,7 @@
       var subject = 'Demande de contact - Pompes Funèbres Weber';
       var body = 'Rappelez-moi au : '
       var numero = prompt('Renseignez votre numéro de téléphone');
-
       var mailto = 'mailto:'+to+'?subject='+subject+'&body='+body+numero;
-
       if(numero !== '' && numero !== null && typeof numero !== 'undefined')
         location.href = mailto;
     });
